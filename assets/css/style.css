@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: menu2; }
+.item4 { grid-area: menu3; }
+.item5 { grid-area: section; }
+.item6 { grid-area: section2;}
+.item7 { grid-area: right; }
+.item8 { grid-area: footer; }
+  
+body{
+    background-color: rgb(27, 41, 110);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header header header'
+    'menu section section section section section section right'
+    'menu2 section2 section2 section2 section2 section2 section2 section2'
+    'menu3 footer footer footer footer footer footer footer';
+  gap: 15px;
+  color: white;
+  padding: 10px;
+  font-family: Arial;
+  font-size: 18px;
+  text-shadow: 1px 1px 1px rgb(54, 54, 54);
+}
+  
+.grid-container {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-container .item1 {
+  background-image: linear-gradient(30deg, rgb(0, 76, 255) , rgb(184, 237, 255));
+}
+  
+.grid-container .item1 h1 {
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.grid-container .item1 nav ul li {
+  display: block;
+  float: right;
+  margin-right: 30px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.me {
+  display: inline-flex;
+  height: 400px;
+  width: 500px;
+  background-image: url("../images/aquarium.jpg");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: top -100px left -50px;
+  border: 30px solid transparent;
+  border-image: linear-gradient(45deg, red , yellow);
+  border-image-slice: 1;
+  min-width: 200px;
+}
+
+figure h2 {
+  padding-top: 80px;
+  padding-left: 20px;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  font-size: 30px;
+  text-shadow: 1px 1px 3px black;
+}
+
+.item2 {
+  display: inline-flex;
+  background-color: rgb(31, 31, 31);
+}
+
+.item3 {
+  display: inline-flex;
+  background-color: rgb(31, 31, 31);
+}
+
+.item4 {
+  display: inline-flex;
+  background-color: rgb(31, 31, 31);
+}
+
+.item5 {
+  display: inline-flex;
+  background-image: linear-gradient(30deg, rgb(0, 76, 255) , rgb(184, 237, 255));
+  font-size: 16px;
+}
+ 
+.content {
+  overflow-y: scroll;
+  padding: 20px;
+  max-height: 350px;
+}
+
+.grid-container .item8 ul li{
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.item6 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  background-image: linear-gradient(30deg, rgb(0, 76, 255) , rgb(184, 237, 255));
+}
+
+.web {
+  flex: 1 0 100%;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.web2 {
+  flex: 1 0 50%;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.prework {
+  display: flex;
+  background-image: url("../images/prework-study-guide.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  height: 800px;
+  width: 100%;
+}
+
+.challenge {
+  display: flex;
+  background-image: url("../images/Challenge-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.place-holder  {
+  display: inline-flex;
+  background-image: url("../images/Under-Construction.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.prework:hover {
+  opacity: 0.75;
+}
+
+.challenge:hover {
+  opacity: 0.75;
+}
+
+.place-holder:hover {
+  opacity: 0.75;
+}
+
+.item8 {
+  background-image: linear-gradient(30deg, rgb(0, 76, 255) , rgb(184, 237, 255));
+}
