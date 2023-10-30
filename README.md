@@ -19,7 +19,13 @@ https://verred01.github.io/My-Portfolio/
 
 ## Credits
 
-N/A
+I used some code from these sources as a base for some of my work.
+
+https://codepen.io/lookininward/pen/zYOQjZM
+
+https://www.w3schools.com/css/default.asp
+
+https://git.bootcampcontent.com/University-of-Utah/UofU-VIRT-FSF-PT-10-2023-U-LOLC
 
 ## License
 
