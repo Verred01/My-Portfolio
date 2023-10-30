@@ -11,6 +11,12 @@ N/A
 
 This is a class project to be used for grading and checking that I did the assignment correctly.
 
+# Screenshot
+![Alt text](<./assets/images/Opera Snapshot_2023-10-30_140121_verred01.github.io.png>)
+
+# Deployed
+https://verred01.github.io/My-Portfolio/
+
 ## Credits
 
 N/A
