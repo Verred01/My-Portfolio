@@ -153,6 +153,16 @@ figure h2 {
   width: 100%;
 }
 
+.password {
+  display: flex;
+  background-image: url("../images/Password-Generator.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  height: 400px;
+  width: 100%;
+}
+
 .place-holder  {
   display: inline-flex;
   background-image: url("../images/Under-Construction.png");
