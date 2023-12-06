@@ -163,6 +163,36 @@ figure h2 {
   width: 100%;
 }
 
+.codingquiz {
+  display: flex;
+  background-image: url("../images/coding\ quiz.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.workplace {
+  display: flex;
+  background-image: url("../images/Work\ Day\ Scheduler.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.fists {
+  display: flex;
+  background-image: url("../images/Fists\ of\ Forecast.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  height: 400px;
+  width: 100%;
+}
+
 .place-holder  {
   display: inline-flex;
   background-image: url("../images/Under-Construction.png");
